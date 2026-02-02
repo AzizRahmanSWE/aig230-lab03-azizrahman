@@ -1,24 +1,29 @@
+# AIG 230 – Lab 03: Text Representation & Statistical Language Models
 
-# AIG 230 – Lab 03
-## Text Representation and Statistical Language Models
+This repository contains my implementation and analysis for Lab 03, focusing on the transition from raw text to structured statistical models.
 
-### Overview
-This lab covers text feature extraction and statistical language modeling.
+## Project Summary
 
-You will work with:
-- Bag-of-Words and TF-IDF
-- Text similarity and classification
-- Unigram, bigram, and trigram language models
-- Perplexity-based evaluation
+In this lab, I explored the fundamental techniques used to represent text numerically and the construction of probabilistic language models. The work is divided into feature extraction, similarity analysis, and N-gram modeling.
+
+### Key Components
+
+- **Feature Engineering:** Implemented **Bag-of-Words** and **TF-IDF** to transform text into vector space.
+- **Text Analytics:** Conducted similarity assessments and classification tasks to evaluate representation quality.
+- **Language Modeling:** Built and trained **Unigram, Bigram, and Trigram** models from scratch.
+- **Model Evaluation:** Utilized **Perplexity** metrics to quantify the predictive performance of the statistical models.
+
+## Completed Work
+
+- [x] Feature extraction notebooks
+- [x] N-gram model implementation
+- [x] Perplexity-based evaluation
+- [x] Final analysis and results
+
+## Repository Structure
+
+- `notebook1.ipynb`: Focuses on BoW, TF-IDF, and text similarity.
+- `notebook2.ipynb`: Focuses on N-gram construction and evaluation.
 
 ---
-
-## Instructions
-
-1. Use this template repository.
-2. Create a repository named `aig230-lab03-yourname`.
-3. Complete both notebooks.
-4. Push all work to your repository.
-5. Submit the repository link on Blackboard.
-
----
+*Completed by Aziz Rahman as part of the AIG 230 curriculum.*
